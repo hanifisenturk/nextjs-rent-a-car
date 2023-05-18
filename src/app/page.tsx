@@ -1,5 +1,12 @@
+import { AdCard } from "@/components/AdCard/AdCard";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="mt-8">
+      <div className="flex items-center justify-between gap-8">
+        <AdCard />
+        <AdCard />
+      </div>
+    </main>
   );
 }

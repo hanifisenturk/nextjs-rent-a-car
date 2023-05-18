@@ -3,7 +3,7 @@
 }
 
 .container nav {
-  @apply flex items-center max-w-[1440px] w-full gap-16;
+  @apply flex items-center max-w-[1312px] w-full gap-16;
 }
 
 .container nav .logo {

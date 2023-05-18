@@ -1,0 +1,15 @@
+.primary {
+  @apply rounded-[0.25rem] text-center text-white bg-primary-default;
+}
+
+.small {
+  @apply px-4 py-[5px] text-xs font-semibold;
+}
+
+.medium {
+  @apply px-4 py-[9px] text-base font-semibold;
+}
+
+.large {
+  @apply px-[23.5px] py-[14px] text-base font-semibold;
+}

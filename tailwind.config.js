@@ -150,6 +150,9 @@ module.exports = {
         ],
       },
     },
+    backgroundImage: {
+      ad1: "url('/ad1.png')",
+    },
   },
   plugins: [],
 };
