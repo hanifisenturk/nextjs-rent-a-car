@@ -5,6 +5,7 @@ type Props = {
   text: string;
   className?: string;
   size: "small" | "medium" | "large";
+  disabled?: boolean;
 };
 
 const sizeGenerator = (size: Props["size"]) => {
@@ -20,9 +21,12 @@ const sizeGenerator = (size: Props["size"]) => {
   }
 };
 
-const PrimaryButton = ({ text, className, size }: Props) => {
+const PrimaryButton = ({ text, className, size, disabled }: Props) => {
   return (
-    <button className={cx(classes.primary, className, sizeGenerator(size))}>
+    <button
+      disabled={disabled}
+      className={cx(classes.primary, className, sizeGenerator(size))}
+    >
       {text}
     </button>
   );

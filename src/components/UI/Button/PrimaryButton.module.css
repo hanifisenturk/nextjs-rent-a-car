@@ -1,5 +1,5 @@
 .primary {
-  @apply rounded-[0.25rem] text-center text-white bg-primary-default;
+  @apply rounded-[0.25rem] text-center text-white bg-primary-default transition-colors;
 }
 
 .small {
@@ -13,3 +13,15 @@
 .large {
   @apply px-[23.5px] py-[14px] text-base font-semibold;
 }
+
+.primary:disabled {
+  @apply cursor-not-allowed bg-opacity-40;
+}
+
+.primary:active {
+  @apply bg-primary-700;
+}
+
+/* .primary:focus {
+  @apply ring-2 ring-red-400;
+} */

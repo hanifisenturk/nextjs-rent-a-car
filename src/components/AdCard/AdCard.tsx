@@ -10,7 +10,11 @@ const AdCard = () => {
         Ease of doing a car rental safely and reliably. Of course at a low
         price.
       </p>
-      <PrimaryButton text="Rental Car" size="medium" className="mt-5" />
+      <PrimaryButton
+        text="Rental Car"
+        size="medium"
+        className="mt-5 w-[120px] h-11"
+      />
     </Card>
   );
 };
