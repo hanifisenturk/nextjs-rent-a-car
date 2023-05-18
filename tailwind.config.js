@@ -10,7 +10,7 @@ module.exports = {
         current: "currentColor",
         black: "#000",
         white: "#fff",
-        "neutral-palette": {
+        primary: {
           900: "#0A196F",
           800: "#102587",
           700: "#1A37A7",

@@ -1,0 +1,19 @@
+.container {
+  @apply py-10 px-[3.75rem] bg-white flex items-center justify-center border-b-[1px] border-secondary-200 border-opacity-40 h-[124px];
+}
+
+.container nav {
+  @apply flex items-center max-w-[1440px] w-full gap-16;
+}
+
+.container nav .logo {
+  @apply text-primary-default font-bold text-2xl;
+}
+
+.container nav .operations {
+  @apply ml-auto flex items-center gap-5;
+}
+
+.container nav .operations a {
+  @apply p-[0.625rem] border border-secondary-200 border-opacity-40 rounded-full flex items-center justify-center w-[44px] h-[44px];
+}

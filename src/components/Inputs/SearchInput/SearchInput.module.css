@@ -1,0 +1,11 @@
+.container {
+  @apply rounded-[4.375rem] border-[1.5px] border-secondary-200 border-opacity-40 py-[0.625rem] px-5 flex items-center gap-5 flex-none w-[492px] h-[44px];
+}
+
+.container input {
+  @apply outline-none font-medium text-sm text-secondary-400 placeholder:text-secondary-400 w-full;
+}
+
+.container span {
+  @apply text-secondary-400 select-none;
+}
