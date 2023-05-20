@@ -1,4 +1,6 @@
 import { AdCard } from "@/components/AdCard/AdCard";
+import { CarList } from "@/components/CarList/CarList";
+import { DateTracker } from "@/components/DateTracker/DateTracker";
 
 export default function Home() {
   return (
@@ -7,6 +9,10 @@ export default function Home() {
         <AdCard />
         <AdCard />
       </div>
+      <div className="mt-8 mb-9">
+        <DateTracker />
+      </div>
+      <CarList />
     </main>
   );
 }

@@ -1,14 +1,21 @@
 import classes from "./PrimaryButton.module.css";
 import cx from "classnames";
 
-type Props = {
-  text: string;
+type GeneralProps = {
   className?: string;
   size: "small" | "medium" | "large";
   disabled?: boolean;
 };
 
-const sizeGenerator = (size: Props["size"]) => {
+type PrimaryButtonProps = {
+  text: string;
+} & GeneralProps;
+
+type ButtonWithOnlyIconProps = {
+  icon: React.ReactNode;
+} & GeneralProps;
+
+const sizeGenerator = (size: GeneralProps["size"]) => {
   switch (size) {
     case "small":
       return classes.small;
@@ -21,7 +28,12 @@ const sizeGenerator = (size: Props["size"]) => {
   }
 };
 
-const PrimaryButton = ({ text, className, size, disabled }: Props) => {
+const PrimaryButton = ({
+  text,
+  className,
+  size,
+  disabled,
+}: PrimaryButtonProps) => {
   return (
     <button
       disabled={disabled}
@@ -32,4 +44,20 @@ const PrimaryButton = ({ text, className, size, disabled }: Props) => {
   );
 };
 
-export { PrimaryButton, PrimaryButton as default };
+const ButtonWithOnlyIcon = ({
+  icon,
+  className,
+  size,
+  disabled,
+}: ButtonWithOnlyIconProps) => {
+  return (
+    <button
+      disabled={disabled}
+      className={cx(classes.primary, className, sizeGenerator(size))}
+    >
+      {icon}
+    </button>
+  );
+};
+
+export { PrimaryButton, ButtonWithOnlyIcon };

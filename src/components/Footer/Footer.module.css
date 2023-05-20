@@ -1,0 +1,35 @@
+.footer {
+  @apply pt-20 bg-white;
+}
+
+.footer .container {
+  @apply max-w-[1312px] mx-auto;
+}
+
+.footer .inner-container {
+  @apply flex justify-between pb-9;
+}
+
+.footer .container p {
+  @apply max-w-[292px] mt-4 text-base font-medium text-[#131313] text-opacity-60;
+}
+
+.links {
+  @apply flex gap-[3.75rem];
+}
+
+.main-title {
+  @apply text-lg font-semibold text-secondary-default mb-6;
+}
+
+.link {
+  @apply text-base font-medium text-[#131313] text-opacity-60 mb-6 inline-block;
+}
+
+.infos {
+  @apply flex items-center justify-between pt-9 pb-[3.75rem] font-semibold;
+}
+
+.infos a:first-child {
+  @apply mr-[3.75rem];
+}
