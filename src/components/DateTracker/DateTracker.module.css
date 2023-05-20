@@ -1,0 +1,7 @@
+.circle-1 {
+  @apply w-4 h-4 rounded-full bg-primary-default border-primary-100  border-4;
+}
+
+.circle-2 {
+  @apply w-4 h-4 rounded-full bg-[#5CAFFC] bg-primary-default border-primary-100 border-4;
+}
