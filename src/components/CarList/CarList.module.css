@@ -1,0 +1,3 @@
+.list {
+  @apply grid grid-cols-4 gap-8 pb-16;
+}

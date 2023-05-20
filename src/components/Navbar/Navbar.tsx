@@ -13,7 +13,7 @@ const Navbar = () => {
         <SearchInput />
         <div className={classes.operations}>
           <Link href="/">
-            <HeartIcon />
+            <HeartIcon fill="#596780" />
           </Link>
           <Link href="/">
             <NotificationIcon />
