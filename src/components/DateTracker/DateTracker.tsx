@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 
 import { Card } from "../UI/Card/Card";
 import { ButtonWithOnlyIcon } from "../UI/Button/PrimaryButton";
@@ -7,8 +7,8 @@ import classes from "./DateTracker.module.css";
 
 const DateTracker = () => {
   return (
-    <div className="flex items-center justify-between">
-      <Card className="rounded-[0.625rem] bg-white px-12 py-6">
+    <div className="flex items-center gap-[44px]">
+      <Card className="rounded-[0.625rem] bg-white px-12 py-6 max-w-[582px]">
         <div className="flex items-center gap-2 mb-4">
           <span className={classes["circle-1"]}></span>
           <span className="text-base font-semibold">Pick Up</span>
@@ -48,7 +48,7 @@ const DateTracker = () => {
         size="large"
         className="bg-white text-secondary-300 !rounded-[0.625rem] !p-[1.125rem]"
       />
-      <Card className="rounded-[0.625rem] bg-white px-12 py-6">
+      <Card className="rounded-[0.625rem] bg-white px-12 py-6 max-w-[582px]">
         <div className="flex items-center gap-2 mb-4">
           <span className={classes["circle-2"]}></span>
           <span className="text-base font-semibold">Drop-Off</span>
