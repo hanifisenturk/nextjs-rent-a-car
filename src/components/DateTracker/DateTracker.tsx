@@ -1,13 +1,20 @@
 "use client";
-
+import { useRef } from "react";
 import { Card } from "../UI/Card/Card";
 import { ButtonWithOnlyIcon } from "../UI/Button/PrimaryButton";
 import { SwapIcon, ArrowDownIcon } from "@/Icons/Index";
 import classes from "./DateTracker.module.css";
+import { LocationModal } from "./LocationModal/LocationModal";
+import { TimeModal } from "./TimeModal/TimeModal";
 
 const DateTracker = () => {
+  const locationModalRef = useRef<HTMLDialogElement>(null);
+  const TimeModalRef = useRef<HTMLDialogElement>(null);
+  const DateModalRef = useRef<HTMLDialogElement>(null);
+
   return (
     <div className="flex items-center gap-[44px]">
+      <LocationModal ref={locationModalRef} />
       <Card className="rounded-[0.625rem] bg-white px-12 py-6 max-w-[582px]">
         <div className="flex items-center gap-2 mb-4">
           <span className={classes["circle-1"]}></span>
@@ -18,7 +25,10 @@ const DateTracker = () => {
             <label htmlFor="" className="font-bold text-base mb-2 block">
               Locations
             </label>
-            <button className="text-xs font-medium text-secondary-300 flex items-center gap-2 text-left">
+            <button
+              onClick={() => locationModalRef.current?.show()}
+              className="text-xs font-medium text-secondary-300 flex items-center gap-2 text-left"
+            >
               <span className="w-[6.5rem]">Select your city</span>
               <ArrowDownIcon />
             </button>
