@@ -1,0 +1,3 @@
+.sidebar {
+  @apply bg-white pt-8 pl-8 w-[22.5rem] h-[150vh];
+}
