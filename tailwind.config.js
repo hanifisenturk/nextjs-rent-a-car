@@ -89,14 +89,14 @@ module.exports = {
           "0.875rem",
           {
             letterSpacing: "-2%",
-            lineHeight: "auto",
+            lineHeight: "1.25rem",
           },
         ],
         base: [
           "1rem",
           {
             letterSpacing: "-2%",
-            lineHeight: "150%",
+            lineHeight: "1.5rem",
           },
         ],
         md: [
@@ -110,7 +110,7 @@ module.exports = {
           "1.25rem",
           {
             letterSpacing: "-2%",
-            lineHeight: "150%",
+            lineHeight: "1.5rem",
           },
         ],
         xl: [

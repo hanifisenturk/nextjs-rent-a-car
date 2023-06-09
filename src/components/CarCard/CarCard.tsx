@@ -12,7 +12,7 @@ import { PrimaryButton } from "../UI/Button/PrimaryButton";
 
 const CarCard = () => {
   return (
-    <Card className="max-w-[304px] bg-white rounded-[0.625rem] p-6">
+    <Card className="w-[304px] bg-white rounded-[0.625rem] p-6 ">
       <div className={classes.header}>
         <div className={classes["car-title"]}>
           <h4>Nissan GT - R</h4>
@@ -29,7 +29,7 @@ const CarCard = () => {
       <div className={classes["info"]}>
         <div className={classes["info-item"]}>
           <GasStationIcon />
-          <span>90L</span>
+          <span>80L</span>
         </div>
         <div className={classes["info-item"]}>
           <GearIcon />
@@ -37,12 +37,14 @@ const CarCard = () => {
         </div>
         <div className={classes["info-item"]}>
           <UserIcon />
-          <span>2 People</span>
+          <span>6 People</span>
         </div>
       </div>
       <div className={classes["price-container"]}>
-        <span className={classes["price"]}>$99.00/</span>
-        <span className={classes["per-day"]}>day</span>
+        <div>
+          <span className={classes["price"]}>$80.00/</span>
+          <span className={classes["per-day"]}>day</span>
+        </div>
         <PrimaryButton
           text="Rent Now"
           size="medium"

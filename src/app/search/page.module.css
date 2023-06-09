@@ -1,0 +1,3 @@
+.container {
+  @apply pt-8 flex flex-col items-center justify-center;
+}
