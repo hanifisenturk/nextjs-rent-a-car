@@ -1,0 +1,19 @@
+.sidebar {
+  @apply bg-white py-8 px-8 w-[22.5rem] h-screen sticky top-0 left-0 flex-none;
+}
+
+.section {
+  @apply mb-14 last:mb-0;
+}
+
+.section-title {
+  @apply text-secondary-300 text-xs font-semibold tracking-widest mb-7;
+}
+
+.checkbox-group {
+  @apply flex flex-col gap-7;
+}
+
+.price {
+  @apply mt-3 font-semibold text-lg text-secondary-400;
+}

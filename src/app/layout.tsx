@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${font.className}`}>
         <Navbar />
-        <div className="max-w-[1312px] mx-auto">{children}</div>
+        {children}
         <Footer />
       </body>
     </html>

@@ -1,0 +1,45 @@
+.checkbox {
+  @apply flex items-center gap-2 cursor-pointer;
+}
+
+.checkbox label {
+  @apply cursor-pointer w-full text-lg font-semibold text-secondary-400 select-none;
+}
+
+.checkbox input {
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  border: 2px solid #90a3bf;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+  -webkit-transition: all ease-in 0.1s;
+  -moz-transition: all ease-in 0.1s;
+  -ms-transition: all ease-in 0.1s;
+  -o-transition: all ease-in 0.1s;
+}
+
+.checkbox input:checked {
+  position: relative;
+  border: none;
+  background-color: #3563e9;
+}
+
+.checkbox input:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.checkbox input:focus {
+  outline: none;
+  border: 2px solid #3563e9;
+}

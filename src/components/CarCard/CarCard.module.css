@@ -3,7 +3,7 @@
 }
 
 .car-title h4 {
-  @apply text-lg font-bold text-secondary-default mb-1;
+  @apply text-lg font-bold text-secondary-default;
 }
 
 .car-title span {
@@ -11,19 +11,19 @@
 }
 
 .image-container {
-  @apply relative flex items-center justify-center mt-[4.125rem] mb-[4.375rem];
+  @apply relative flex items-center justify-center my-[3.125rem];
 }
 
 .image-container img {
-  @apply z-[5] object-cover max-h-[6.25rem] w-full;
+  @apply z-[5] object-cover;
 }
 
 .info {
-  @apply flex items-center justify-center gap-4;
+  @apply flex items-center justify-center gap-4 mb-6;
 }
 
 .info-item {
-  @apply flex items-center gap-[0.375rem] mb-6;
+  @apply flex items-center gap-[0.375rem];
 }
 
 .info-item span {
