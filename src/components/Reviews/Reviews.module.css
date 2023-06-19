@@ -1,0 +1,11 @@
+.review-header {
+  @apply flex items-center gap-3 mb-8;
+}
+
+.review-count {
+  @apply bg-primary-default text-white text-sm font-bold rounded flex-none min-w-[2.75rem] h-7 flex items-center justify-center px-3;
+}
+
+.show-all {
+  @apply flex items-center mx-auto gap-2 font-semibold text-secondary-300 select-none;
+}

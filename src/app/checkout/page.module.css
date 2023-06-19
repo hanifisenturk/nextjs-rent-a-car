@@ -1,0 +1,7 @@
+.container {
+  @apply flex gap-8 items-start;
+}
+
+.container form {
+  @apply basis-[53.25rem];
+}

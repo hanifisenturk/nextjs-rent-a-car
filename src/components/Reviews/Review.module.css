@@ -1,0 +1,23 @@
+.container {
+  @apply flex gap-4 items-start mb-6;
+}
+
+.reviewer-header {
+  @apply flex justify-between mb-3;
+}
+
+.reviewer-header .reviewer-name {
+  @apply text-lg font-bold mb-2 leading-[1.75rem];
+}
+
+.reviewer-header .reviewer-title {
+  @apply text-sm text-secondary-300;
+}
+
+.review-date {
+  @apply block mb-2 text-sm text-secondary-300 text-end;
+}
+
+.review {
+  @apply text-sm text-secondary-400 leading-[200%];
+}

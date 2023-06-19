@@ -1,0 +1,63 @@
+.container {
+  @apply bg-white px-6 pt-6 pb-8 rounded-[0.625rem] basis-1/2;
+}
+
+.title-container {
+  @apply flex items-start justify-between mb-8;
+}
+
+.title-container h1 {
+  @apply font-bold text-2xl;
+}
+
+.review-group {
+  @apply flex items-center gap-2;
+}
+
+.reviewer-count {
+  @apply text-sm text-secondary-400 font-medium ml-2;
+}
+
+.description {
+  @apply text-lg text-secondary-400 leading-[200%] mb-8;
+}
+
+.feature-group {
+  @apply flex items-center justify-between gap-11;
+}
+
+.feature-group:not(:last-child) {
+  @apply mb-4;
+}
+
+.feature {
+  @apply flex items-center justify-between basis-1/2 text-lg;
+}
+
+.feature-type {
+  @apply text-secondary-300;
+}
+
+.feature-text {
+  @apply font-semibold text-secondary-400;
+}
+
+.price-container {
+  @apply flex items-center justify-between mt-[4.25rem];
+}
+
+.price-group {
+  @apply font-bold;
+}
+
+.price {
+  @apply text-[1.75rem];
+}
+
+.price-type {
+  @apply text-secondary-300;
+}
+
+.old-price {
+  @apply text-secondary-300 line-through mt-1;
+}

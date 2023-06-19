@@ -1,0 +1,37 @@
+.title {
+  @apply font-bold text-lg text-secondary-default mb-1;
+}
+
+.description {
+  @apply text-sm text-secondary-300 mb-8 leading-[150%];
+}
+
+.product {
+  @apply flex gap-4 items-center pb-8 border-b border-[#E7EEF6] mb-8;
+}
+
+.product img {
+  @apply h-[6.75rem];
+}
+
+.product-name {
+  @apply text-2xl font-bold text-secondary-default mb-2;
+}
+
+.rating {
+  @apply flex items-center gap-2 text-sm text-secondary-400 font-medium;
+}
+
+.subtotal,
+.tax {
+  @apply flex items-center justify-between text-secondary-300 font-medium mb-6;
+}
+
+.subtotal span,
+.tax span {
+  @apply text-secondary-default font-semibold;
+}
+
+.total-price {
+  @apply flex items-center justify-between;
+}

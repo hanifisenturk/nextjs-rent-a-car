@@ -3,11 +3,17 @@ import cx from "classnames";
 
 type Props = {
   className?: string;
-  placeHolder?: string;
+  placeholder?: string;
 };
 
-const TextInput = ({ className, placeHolder }: Props) => {
-  return <input className={cx(classes.input, className)} type="text" />;
+const TextInput = ({ className, placeholder }: Props) => {
+  return (
+    <input
+      placeholder={placeholder}
+      className={cx(classes.input, className)}
+      type="text"
+    />
+  );
 };
 
 export { TextInput, TextInput as default };

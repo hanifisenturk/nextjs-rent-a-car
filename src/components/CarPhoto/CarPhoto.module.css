@@ -1,0 +1,19 @@
+.container {
+  @apply basis-1/2;
+}
+
+.container > img {
+  @apply rounded-[0.625rem] w-full h-full object-cover;
+}
+
+.images-container {
+  @apply flex gap-6 mt-6;
+}
+
+.images-container button {
+  @apply transition-transform hover:scale-110 basis-1/3;
+}
+
+.images-container button img {
+  @apply rounded-[0.625rem] w-full  object-cover;
+}

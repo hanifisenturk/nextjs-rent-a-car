@@ -1,7 +1,6 @@
 import { AdCard } from "@/components/AdCard/AdCard";
 import { CarList } from "@/components/CarList/CarList";
 import { DateTracker } from "@/components/DateTracker/DateTracker";
-
 export default function Home() {
   return (
     <main className="max-w-[1312px] mx-auto mt-8">

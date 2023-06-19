@@ -8,3 +8,5 @@ export { SwapIcon } from "./Swap";
 export { GasStationIcon } from "./GasStation";
 export { GearIcon } from "./Gear";
 export { UserIcon } from "./User";
+export { StarIcon } from "./Star";
+export { SafetyIcon } from "./Safety";

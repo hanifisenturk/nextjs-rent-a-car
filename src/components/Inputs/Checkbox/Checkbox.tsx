@@ -3,14 +3,17 @@ import classes from "./Checkbox.module.css";
 
 type Props = {
   label: string;
+  labelClassName?: string;
 };
 
-const Checkbox = ({ label }: Props) => {
+const Checkbox = ({ label, labelClassName }: Props) => {
   const id = useId();
   return (
     <div className={classes.checkbox}>
       <input type="checkbox" id={id} />
-      <label htmlFor={id}>{label}</label>
+      <label className={labelClassName} htmlFor={id}>
+        {label}
+      </label>
     </div>
   );
 };
