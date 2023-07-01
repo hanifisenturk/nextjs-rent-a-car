@@ -1,3 +1,3 @@
 export default function CarLayout({ children }: { children: React.ReactNode }) {
-  return <main className="max-w-[1312px] mx-auto">{children}</main>;
+  return <main className="px-6 lg:max-w-[1360px] mx-auto ">{children}</main>;
 }

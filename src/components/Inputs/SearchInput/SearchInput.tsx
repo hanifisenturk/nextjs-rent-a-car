@@ -6,7 +6,7 @@ const SearchInput = () => {
     <div className={classes.container}>
       <SearchIcon />
       <input type="text" placeholder="Search something here" />
-      <span>⌘+K</span>
+      <span className="hidden lg:inline-block">⌘+K</span>
     </div>
   );
 };

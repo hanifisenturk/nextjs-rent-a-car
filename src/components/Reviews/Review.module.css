@@ -7,17 +7,17 @@
 }
 
 .reviewer-header .reviewer-name {
-  @apply text-lg font-bold mb-2 leading-[1.75rem];
+  @apply text-base lg:text-lg font-bold mb-2 leading-[1.75rem];
 }
 
 .reviewer-header .reviewer-title {
-  @apply text-sm text-secondary-300;
+  @apply text-xs lg:text-sm text-secondary-300;
 }
 
 .review-date {
-  @apply block mb-2 text-sm text-secondary-300 text-end;
+  @apply block mb-2 text-xs lg:text-sm text-secondary-300 text-end;
 }
 
 .review {
-  @apply text-sm text-secondary-400 leading-[200%];
+  @apply text-xs lg:text-sm text-secondary-400 leading-[200%];
 }

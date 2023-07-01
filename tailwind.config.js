@@ -5,6 +5,9 @@ module.exports = {
 
   theme: {
     extend: {
+      screens: {
+        1360: "1360px",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
