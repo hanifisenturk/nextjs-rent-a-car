@@ -20,7 +20,7 @@ const ConformationStep = () => {
       <PrimaryButton
         text="Rent Now"
         size="large"
-        className="lg:!rounded-[0.625rem] w-[6.25rem] h-[2.25rem] lg:w-[8.75rem] lg:h-[3.5rem] mb-8 flex items-center justify-center text-xs lg:text-base"
+        className=" lg:!rounded-[0.625rem] mb-8 w-[6.25rem] h-[2.25rem] lg:w-[8.75rem] lg:h-[3.5rem] !text-xs lg:!text-base !p-0"
       />
       <div>
         <SafetyIcon />

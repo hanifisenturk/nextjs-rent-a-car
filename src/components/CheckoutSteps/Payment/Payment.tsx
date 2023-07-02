@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Card } from "@/components/UI/Card/Card";
-import classes from "./Payment.module.css";
 import { TextInput } from "@/components/UI/Input/Text/Text";
 import { Radio } from "@/components/UI/Input/Radio/Radio";
 
