@@ -3,7 +3,7 @@
 }
 
 .reviewer-header {
-  @apply flex justify-between mb-3;
+  @apply flex justify-between items-center mb-3;
 }
 
 .reviewer-header .reviewer-name {
@@ -14,8 +14,12 @@
   @apply text-xs lg:text-sm text-secondary-300;
 }
 
+.review-info {
+  @apply flex flex-col gap-2 justify-between;
+}
+
 .review-date {
-  @apply block mb-2 text-xs lg:text-sm text-secondary-300 text-end;
+  @apply block text-xs lg:text-sm text-secondary-300 text-end leading-[1.75rem];
 }
 
 .review {

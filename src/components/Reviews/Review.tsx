@@ -12,7 +12,7 @@ const Review = () => {
             <p className={classes["reviewer-name"]}>Alex Stanton</p>
             <p className={classes["reviewer-title"]}>CEO at Bukalapak</p>
           </div>
-          <div>
+          <div className={classes["review-info"]}>
             <time className={classes["review-date"]}>21 July 2022</time>
             <Rate />
           </div>

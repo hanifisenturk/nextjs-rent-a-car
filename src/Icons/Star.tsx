@@ -3,6 +3,7 @@ import React from "react";
 function StarIcon() {
   return (
     <svg
+      className="w-3 h-3 lg:w-auto lg:h-auto"
       xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="20"
