@@ -3,44 +3,20 @@ import { TextInput } from "@/components/UI/Input/Text/Text";
 const BillingStep = () => {
   return (
     <section>
-      <div className="flex gap-8 justify-between mb-6">
+      <div className="flex flex-col lg:flex-row gap-8 justify-between mb-6">
         <div className="basis-1/2">
-          <label
-            className="mb-2 block font-semibold text-secondary-default"
-            htmlFor="#"
-          >
-            Name
-          </label>
-          <TextInput placeholder="Your name" />
+          <TextInput label="Name" placeholder="Your name" />
         </div>
         <div className="basis-1/2">
-          <label
-            className="mb-2 block font-semibold text-secondary-default"
-            htmlFor="#"
-          >
-            Phone Number
-          </label>
-          <TextInput placeholder="Phone number" />
+          <TextInput label="Phone Number" placeholder="Phone number" />
         </div>
       </div>
-      <div className="flex gap-8 justify-between">
+      <div className="flex flex-col lg:flex-row gap-8 justify-between">
         <div className="basis-1/2">
-          <label
-            className="mb-2 block font-semibold text-secondary-default"
-            htmlFor="#"
-          >
-            Address
-          </label>
-          <TextInput placeholder="Address" />
+          <TextInput label="Address" placeholder="Address" />
         </div>
         <div className="basis-1/2">
-          <label
-            className="mb-2 block font-semibold text-secondary-default"
-            htmlFor="#"
-          >
-            Town / City
-          </label>
-          <TextInput placeholder="Town or city" />
+          <TextInput label="Town / City" placeholder="Town or city" />
         </div>
       </div>
     </section>

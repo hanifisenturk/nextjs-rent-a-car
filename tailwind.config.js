@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       screens: {
         1360: "1360px",
+        1152: "1152px",
       },
       colors: {
         transparent: "transparent",

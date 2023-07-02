@@ -1,5 +1,5 @@
 .footer {
-  @apply pt-20 lg:bg-white;
+  @apply pt-4 lg:pt-20 lg:bg-white;
 }
 
 .footer .container {

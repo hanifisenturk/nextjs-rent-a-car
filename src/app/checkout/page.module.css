@@ -1,7 +1,7 @@
 .container {
-  @apply flex gap-8 items-start;
+  @apply flex flex-col lg:flex-row gap-8 items-start;
 }
 
 .container form {
-  @apply basis-[53.25rem];
+  @apply order-2 lg:order-1 w-full basis-[53.25rem];
 }

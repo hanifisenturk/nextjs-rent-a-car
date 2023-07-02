@@ -1,5 +1,5 @@
-import { Checkbox } from "../Inputs/Checkbox/Checkbox";
-import { RangeSlider } from "../Inputs/RangeSlider/RangeSlider";
+import { Checkbox } from "../UI/Input/Checkbox/Checkbox";
+import { RangeSlider } from "../UI/Input/RangeSlider/RangeSlider";
 import classes from "./Sidebar.module.css";
 const Sidebar = () => {
   return (
