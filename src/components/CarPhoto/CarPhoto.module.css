@@ -7,7 +7,7 @@
 }
 
 .images-container {
-  @apply flex gap-6 mt-6;
+  @apply flex gap-[1.25rem] lg:gap-6 mt-6;
 }
 
 .images-container button {
