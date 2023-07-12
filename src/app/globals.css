@@ -7,3 +7,9 @@
     background-color: #f6f7f9;
   }
 }
+
+@layer components {
+  .bg-gradientt {
+    background-image: linear-gradient(to right, from white, to red);
+  }
+}

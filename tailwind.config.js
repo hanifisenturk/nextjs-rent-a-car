@@ -9,6 +9,10 @@ module.exports = {
         1360: "1360px",
         1152: "1152px",
       },
+      backgroundImage: {
+        "slider-fade":
+          "linear-gradient(to right, transparent 0%, rgba(255,255,255,1) 100%)",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
