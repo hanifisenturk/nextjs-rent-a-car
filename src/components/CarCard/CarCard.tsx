@@ -12,7 +12,7 @@ import { PrimaryButton } from "../UI/Button/PrimaryButton";
 
 const CarCard = () => {
   return (
-    <Card className="w-[304px] bg-white rounded-[0.625rem] p-6 ">
+    <Card className="w-[15rem] lg:w-[19rem] bg-white rounded-[0.625rem] p-4 lg:p-6 snap-center">
       <div className={classes.header}>
         <div className={classes["car-title"]}>
           <h4>Nissan GT - R</h4>
@@ -48,7 +48,7 @@ const CarCard = () => {
         <PrimaryButton
           text="Rent Now"
           size="medium"
-          className="ml-auto w-[7.25rem] !h-[2.75rem]"
+          className="ml-auto w-[6.25rem] lg:w-[7.25rem] h-[2.25rem] lg:!h-[2.75rem] !text-xs lg:text-sm flex items-center justify-center"
         />
       </div>
     </Card>

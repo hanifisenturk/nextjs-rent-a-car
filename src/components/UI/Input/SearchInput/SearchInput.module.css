@@ -1,5 +1,5 @@
 .container {
-  @apply rounded-[4.375rem] border-[1.5px] border-secondary-200 border-opacity-40 py-[0.625rem] px-5 flex items-center gap-5 flex-none w-[492px] h-[44px];
+  @apply rounded-[4.375rem] border-[1.5px] border-secondary-200 border-opacity-40 py-[0.625rem] px-5 flex items-center gap-5 flex-none w-full lg:w-[492px] h-12 lg:h-[44px];
 }
 
 .container input {

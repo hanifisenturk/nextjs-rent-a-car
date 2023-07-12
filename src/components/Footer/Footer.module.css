@@ -1,33 +1,37 @@
 .footer {
-  @apply pt-20 bg-white;
+  @apply pt-4 lg:pt-20 lg:bg-white;
 }
 
 .footer .container {
-  @apply max-w-[1312px] mx-auto;
+  @apply max-w-[1360px] mx-auto px-6;
 }
 
 .footer .inner-container {
-  @apply flex justify-between pb-9;
+  @apply flex flex-wrap justify-between pb-12 lg:pb-9;
 }
 
 .footer .container p {
-  @apply max-w-[292px] mt-4 text-base font-medium text-[#131313] text-opacity-60;
+  @apply max-w-[292px] mt-4 mb-12 lg:mb-0 text-base font-medium text-[#131313] text-opacity-60;
 }
 
 .links {
-  @apply flex gap-[3.75rem];
+  @apply flex flex-wrap gap-[3.75rem];
+}
+
+.links ul {
+  @apply flex flex-col gap-6;
 }
 
 .main-title {
-  @apply text-lg font-semibold text-secondary-default mb-6;
+  @apply text-lg font-semibold text-secondary-default;
 }
 
 .link {
-  @apply text-base font-medium text-[#131313] text-opacity-60 mb-6 inline-block;
+  @apply text-base font-medium text-[#131313] text-opacity-60 inline-block;
 }
 
 .infos {
-  @apply flex items-center justify-between pt-9 pb-[3.75rem] font-semibold;
+  @apply flex flex-wrap items-center justify-between lg:pt-9 pb-6 lg:pb-[3.75rem] font-semibold text-xs lg:text-base;
 }
 
 .infos a:first-child {

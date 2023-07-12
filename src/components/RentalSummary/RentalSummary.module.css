@@ -1,25 +1,25 @@
 .title {
-  @apply font-bold text-lg text-secondary-default mb-1;
+  @apply font-bold text-base lg:text-lg text-secondary-default mb-1;
 }
 
 .description {
-  @apply text-sm text-secondary-300 mb-8 leading-[150%];
+  @apply text-xs lg:text-sm text-secondary-300 mb-6 lg:mb-8 leading-[150%];
 }
 
 .product {
-  @apply flex gap-4 items-center pb-8 border-b border-[#E7EEF6] mb-8;
+  @apply flex gap-4 items-center pb-6 lg:pb-8 border-b border-[#E7EEF6] mb-4 lg:mb-8;
 }
 
 .product img {
-  @apply h-[6.75rem];
+  @apply w-[7.25rem] h-20 lg:w-[8.25rem] lg:h-[6.75rem] rounded-lg object-cover;
 }
 
 .product-name {
-  @apply text-2xl font-bold text-secondary-default mb-2;
+  @apply text-lg lg:text-xl 1152:text-2xl font-bold text-secondary-default mb-2;
 }
 
 .rating {
-  @apply flex items-center gap-2 text-sm text-secondary-400 font-medium;
+  @apply flex flex-col lg:flex-row lg:items-center gap-2 mt-3 lg:mt-0 text-xs 1152:text-sm text-secondary-400 font-medium;
 }
 
 .subtotal,

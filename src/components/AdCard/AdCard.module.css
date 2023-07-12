@@ -1,11 +1,11 @@
 .container {
-  @apply bg-ad1 bg-cover bg-no-repeat bg-info-default text-white p-6 basis-1/2 h-[22.5rem];
+  @apply bg-ad1 bg-cover bg-no-repeat bg-bottom bg-info-default text-white p-6 w-full lg:basis-1/2 h-[22.5rem];
 }
 
 .title {
-  @apply text-2xl font-semibold max-w-[17rem];
+  @apply lg:text-2xl font-semibold max-w-[17rem];
 }
 
 .description {
-  @apply text-base font-medium mt-4 max-w-[17.75rem];
+  @apply text-sm lg:text-base font-medium mt-3 lg:mt-4 max-w-[17.75rem];
 }

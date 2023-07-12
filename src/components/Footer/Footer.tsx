@@ -103,10 +103,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr />
+        <hr className="hidden lg:block" />
         <div className={classes.infos}>
-          <span>©2022 MORENT. All rights reserved</span>
-          <div>
+          <span className="order-2 lg:order-1 mt-8 lg:mt-0">
+            ©2022 MORENT. All rights reserved
+          </span>
+          <div className="order-1 lg:order-2 flex justify-between lg:justify-start w-full lg:w-auto">
             <Link href="/">Privacy & Policy</Link>
             <Link href="/">Terms & Conditon</Link>
           </div>

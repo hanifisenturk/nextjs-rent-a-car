@@ -19,7 +19,7 @@ export default function CheckoutPage() {
         <CheckoutFormCard
           step={2}
           title="Rental Info"
-          subtitle="Yes! You can update your rental info here if you want 😍"
+          subtitle="Yes! You can update 😍"
         >
           test
         </CheckoutFormCard>
@@ -35,7 +35,7 @@ export default function CheckoutPage() {
         <CheckoutFormCard
           step={4}
           title="Confirmation"
-          subtitle="We are getting to the end. Just few clicks and your rental is ready!"
+          subtitle="Just few clicks and your rental is ready!"
         >
           <ConformationStep />
         </CheckoutFormCard>

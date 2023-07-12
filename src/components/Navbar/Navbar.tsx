@@ -1,6 +1,6 @@
 import Link from "next/link";
 import classes from "./Navbar.module.css";
-import { SearchInput } from "../Inputs/SearchInput/SearchInput";
+import { SearchInput } from "../UI/Input/SearchInput/SearchInput";
 import { Avatar } from "../Avatar/Avatar";
 import { HeartIcon, NotificationIcon, SettingsIcon } from "@/Icons/Index";
 import { Logo } from "../Logo/Logo";
@@ -8,8 +8,10 @@ const Navbar = () => {
   return (
     <div className={classes.container}>
       <nav>
-        <Logo />
-        <SearchInput />
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 lg:items-center w-full lg:w-auto order-2 lg:order-1">
+          <Logo />
+          <SearchInput />
+        </div>
         <div className={classes.operations}>
           <Link href="/">
             <HeartIcon fill="#596780" />
@@ -20,7 +22,7 @@ const Navbar = () => {
           <Link href="/">
             <SettingsIcon />
           </Link>
-          <button>
+          <button className="flex-none">
             <Avatar />
           </button>
         </div>

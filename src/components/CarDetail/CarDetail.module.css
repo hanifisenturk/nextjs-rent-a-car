@@ -1,5 +1,5 @@
 .container {
-  @apply bg-white px-6 pt-6 pb-8 rounded-[0.625rem] basis-1/2;
+  @apply bg-white px-6 pt-6 pb-8 rounded-[0.625rem] lg:basis-1/2 w-full;
 }
 
 .title-container {
@@ -7,7 +7,7 @@
 }
 
 .title-container h1 {
-  @apply font-bold text-2xl;
+  @apply font-bold  text-lg mb-[6px] lg:mb-0 lg:text-2xl;
 }
 
 .review-group {
@@ -15,11 +15,15 @@
 }
 
 .reviewer-count {
-  @apply text-sm text-secondary-400 font-medium ml-2;
+  @apply text-xs lg:text-sm text-secondary-400 font-medium ml-2;
 }
 
 .description {
-  @apply text-lg text-secondary-400 leading-[200%] mb-8;
+  @apply text-xs lg:text-lg text-secondary-400 leading-[200%] mb-8;
+}
+
+.features {
+  @apply mb-8 lg:mb-[4.25rem];
 }
 
 .feature-group {
@@ -31,7 +35,7 @@
 }
 
 .feature {
-  @apply flex items-center justify-between basis-1/2 text-lg;
+  @apply flex items-center justify-between basis-1/2 text-xs lg:text-lg;
 }
 
 .feature-type {
@@ -43,7 +47,7 @@
 }
 
 .price-container {
-  @apply flex items-center justify-between mt-[4.25rem];
+  @apply flex items-center justify-between;
 }
 
 .price-group {
@@ -51,13 +55,13 @@
 }
 
 .price {
-  @apply text-[1.75rem];
+  @apply text-lg lg:text-[1.75rem];
 }
 
 .price-type {
-  @apply text-secondary-300;
+  @apply text-xs lg:text-base text-secondary-300;
 }
 
 .old-price {
-  @apply text-secondary-300 line-through mt-1;
+  @apply text-xs lg:text-base text-secondary-300 line-through mt-1;
 }

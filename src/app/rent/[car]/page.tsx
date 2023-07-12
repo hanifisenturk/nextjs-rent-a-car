@@ -7,7 +7,7 @@ export default function CarPage({ params }: { params: { car: string } }) {
 
   return (
     <>
-      <div className="flex items-start gap-8 py-8 ">
+      <div className="flex flex-col lg:flex-row items-start gap-8 py-8 w-full ">
         <CarPhoto />
         <CarDetail />
       </div>

@@ -50,7 +50,7 @@ const LocationModal = ({ ref }: Props) => {
   }, []);
   return (
     <Modal ref={modalRef} title="Select a Pick - Up City">
-      <TextInput />
+      {/* <TextInput /> */}
       <CountryList />
     </Modal>
   );

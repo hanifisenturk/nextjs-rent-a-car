@@ -3,21 +3,25 @@
 }
 
 .reviewer-header {
-  @apply flex justify-between mb-3;
+  @apply flex justify-between items-center mb-3;
 }
 
 .reviewer-header .reviewer-name {
-  @apply text-lg font-bold mb-2 leading-[1.75rem];
+  @apply text-base lg:text-lg font-bold mb-2 leading-[1.75rem];
 }
 
 .reviewer-header .reviewer-title {
-  @apply text-sm text-secondary-300;
+  @apply text-xs lg:text-sm text-secondary-300;
+}
+
+.review-info {
+  @apply flex flex-col gap-2 justify-between;
 }
 
 .review-date {
-  @apply block mb-2 text-sm text-secondary-300 text-end;
+  @apply block text-xs lg:text-sm text-secondary-300 text-end leading-[1.75rem];
 }
 
 .review {
-  @apply text-sm text-secondary-400 leading-[200%];
+  @apply text-xs lg:text-sm text-secondary-400 leading-[200%];
 }

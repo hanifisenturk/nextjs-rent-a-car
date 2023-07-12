@@ -7,5 +7,5 @@
 }
 
 .show-all {
-  @apply flex items-center mx-auto gap-2 font-semibold text-secondary-300 select-none;
+  @apply flex items-center mx-auto gap-2 font-semibold text-secondary-300 select-none text-sm lg:text-base;
 }

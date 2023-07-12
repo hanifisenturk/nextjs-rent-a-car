@@ -3,5 +3,5 @@ export default function CheckoutLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main className="max-w-[1376px] mx-auto py-8">{children}</main>;
+  return <main className="max-w-[1400px] px-3 mx-auto pt-8">{children}</main>;
 }
