@@ -1,5 +1,5 @@
 .container {
-  @apply bg-ad1 bg-cover bg-no-repeat bg-info-default text-white p-6 basis-1/2 h-[22.5rem];
+  @apply bg-ad1 bg-cover bg-no-repeat bg-bottom bg-info-default text-white p-6 w-full lg:basis-1/2 h-[22.5rem];
 }
 
 .title {

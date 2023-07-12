@@ -3,15 +3,15 @@
 }
 
 .car-title h4 {
-  @apply text-lg font-bold text-secondary-default;
+  @apply lg:text-lg font-bold text-secondary-default;
 }
 
 .car-title span {
-  @apply text-sm font-bold text-secondary-300;
+  @apply text-xs lg:text-sm font-bold text-secondary-300;
 }
 
 .image-container {
-  @apply relative flex items-center justify-center my-[3.125rem];
+  @apply scale-100 relative flex items-center justify-center my-[3.125rem];
 }
 
 .image-container img {
@@ -27,7 +27,7 @@
 }
 
 .info-item span {
-  @apply text-sm font-medium text-secondary-300;
+  @apply text-xs lg:text-sm font-medium text-secondary-300;
 }
 
 .price-container {
@@ -35,11 +35,11 @@
 }
 
 .price-container .price {
-  @apply text-lg text-secondary-default;
+  @apply lg:text-lg text-secondary-default;
 }
 
 .price-container .per-day {
-  @apply text-sm text-secondary-300;
+  @apply text-xs lg:text-sm text-secondary-300;
 }
 
 .fade-effect {
